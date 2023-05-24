@@ -1,0 +1,32 @@
+.contain{
+    background-image: url(./wallpaper.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+h1{
+    background-image: url(./cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+h4{
+    color: white;
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+li{
+    text-align: center;
+    color: white;
+}
